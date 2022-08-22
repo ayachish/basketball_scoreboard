@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="home_card">
+            <h3 class="home_title">HOME</h3>
+            <h3 id="score_home">0</h3>
+            <div class="btn_container">
+                <button class="btn" id="home_plus1" onclick="homeplus1()"> +1 </button>
+                <button class="btn" id="home_plus2" onclick="homeplus2()"> +2 </button>
+                <button class="btn" id="home_plus3" onclick="homeplus3()"> +3 </button>
+            </div>
+            
+        </div>
+        <div class="guest_card">
+            <h3 class="guest_title">GUEST</h3>
+            <h3 id="score_guest">0</h3>
+            <div class="btn_container">
+                <button class="btn" id="guest_plus1" onclick="guestplus1()"> +1 </button>
+                <button class="btn" id="guest_plus2" onclick="guestplus2()"> +2 </button>
+                <button class="btn" id="guest_plus3" onclick="guestplus3()"> +3 </button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
